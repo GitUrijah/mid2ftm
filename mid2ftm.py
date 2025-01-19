@@ -177,4 +177,4 @@ def writeHdrAndParams(f):
     f.write((ROW_HIGHLIGHT_2).to_bytes(4, byteorder='little', signed=False))
     f.write(b"\x20\x00\x00\x00") # Speed/tempo split
 
-main()
+input()
